@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /* horizontal line */
+.line {
+    margin: 3% 10%;
+}
+
+    /* navigation */
+.navigation__list {
+    display: flex;      
+    margin: 0;  
+}
+
+.navigation__item {
+    flex: 1;
+    list-style-type: none;
+    text-align: center;    
+}
+
+.navigation__link {
+    font-size: 16px;
+    font-weight: 600;
+    display: block;    
+    background-color: lightcyan;
+    padding: 10px 0;
+    color: black;
+    border: 1px solid gray;
+}
+
+.navigation__link:hover {       
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+    background-color: rgb(129, 146, 146);
+    border: 1px solid black;
+}
+
+.gallery__photo {
+    width: 100%;
+    height: 100vh;
+}
+
+.gallery__text{
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.gallery__title {
+    margin-top: 55px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Tahoma;
+    text-transform: uppercase;
+    color: #f8f9fa;
+}
+
+.gallery__description {
+    margin: 15% 0;
+    font-weight: 500;
+    font-size: 25px;
+    color: #f8f9fa;
+}
+
+    /* weather__section */
+
+.weather__header {
+    text-align: center;
+    margin: 25px 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.weather__text {
+    margin: 20px 35px;
+    font-weight: 500;
+}
+
+    /* cards */
+
+.weather__deck {
+    display: flex;    
+    margin: 0 20px;
+}
+
+.weather__card {
+    text-align: center;   
+    width: 320px;  
+    margin: 0 10px;
+}
+
+.card__photo {
+    height: 300px;
+    width: 100%;   
+    border-radius: 10px 10px 0 0;
+}
+
+.card__info {
+    background-color: rgb(206, 206, 206);
+    color: black;
+    padding: 15px 0;
+    border: 1px solid rgb(92, 92, 92)
+}
+
+.card__text {
+    margin-top: 40px;
+}
+
+.card__button {
+    border: 1px solid black;
+    width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.card__link {
+    display: block;
+    color: black;
+    padding: 10px 0;
+}
+
+.card__link:hover{
+    text-decoration: none;
+    background-color: rgb(141, 141, 141);
+    color: white;
+}
+
+    /* Sunny section */
+
+.sunny__info {
+    text-align: center;
+}
+
+.sunny__text {
+    padding: 20px 100px;
+    text-align: left;
+}
+
+.sunny__photo {
+    width: auto;
+    height: 400px;
+}
+
+    /* section__badweather
+    rainy and storm article */
+
+.section__badweather{
+    margin: 0 50px;
+}
+
+.rainy__header,
+.storm__header {
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.rainy__text,
+.storm__text {
+    padding: 25px 7px;
+}
+
+.storm__text {
+    font-size: 15px;
+}
+
+.rainy__image {
+    width: 200px;
+    height: 200px;
+    margin: 2px 0;
+}
+
+.rainy__image:hover {
+    transform: scale(1.1);
+    transition-duration: .5s;
+}
+
+.storm__image {
+    width: 400px;
+    height: auto;
+    margin: 2px 0;
+}
+
+.rainy__image,
+.storm__image {
+    border-radius: 10px;
+}
+
+    /* Snow part */
+
+.snowy__image {
+    background-image: url(https://files2.abingcdn.com/balkaneu.com/uploads/2017/10/08221922/bl-4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+.snowy__image__text {
+    color: black;
+    text-align: right;
+    padding: 15% 5%;
+}
+
+.snowy__header {
+    text-align: center;
+    margin: 25px 0;
+    font-weight: 700;
+}
+
+    /* Footer */
+
+.footer {
+    display: flex;
+    border-top: 1px solid gray;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    background-color: #b3d7ff;
+}
+
+.footer__left {
+    flex: 1;
+    padding-left: 30px;
+}
+
+.footer__right {
+    text-align: center;
+    flex: 1;
+}
+
+.fa {
+    padding: 15px 5px; 
+    color: black;
+}
+
+.fa:hover {
+    color: gray;
+}
