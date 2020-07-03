@@ -66,6 +66,20 @@
     color: #f8f9fa;
 }
 
+@media screen and (max-width: 860px){
+    .gallery__title {
+        font-size: 25px;
+        color: black;
+    }
+    .gallery__description {
+        font-size: 18px;
+        color: black;
+    }
+    .gallery__photo {
+        height: 100%;
+    }
+}
+
     /* weather__section */
 
 .weather__header {
@@ -78,6 +92,19 @@
 .weather__text {
     margin: 20px 35px;
     font-weight: 500;
+}
+
+@media screen and (max-width: 860px){
+    .weather__header {
+        font-size: 25px;
+        padding: 0 20px;
+        font-weight: 700;
+    }
+    .weather__text {
+        font-weight: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
 }
 
     /* cards */
@@ -129,6 +156,24 @@
     color: white;
 }
 
+@media screen and (max-width: 860px) {
+    .weather__deck {
+        display: block;
+        margin: 0;
+        padding: 0 15px;
+    }
+    .weather__card {
+        width: 80%;
+        margin: auto;
+        padding: 10px 0;
+        
+    }
+    .card__photo {
+        height: 200px;
+    }
+}
+
+
     /* Sunny section */
 
 .sunny__info {
@@ -143,6 +188,17 @@
 .sunny__photo {
     width: auto;
     height: 400px;
+}
+
+@media screen and (max-width: 860px){
+    .sunny__text {
+        padding: 10px 15px;
+    }
+    .sunny__photo {
+        padding: 0 15px;
+        width: 100%;
+        height: 100%;
+    }
 }
 
     /* section__badweather
@@ -189,6 +245,32 @@
     border-radius: 10px;
 }
 
+@media screen and (max-width:860px) {
+    .section__badweather {
+        margin: 0 15px;
+    }
+    .rainy__header,
+    .storm__header {
+        font-weight: 600;
+        font-size: 30px;
+        text-align: center;
+    }
+    .rainy__photos {
+        margin-bottom: 25px;
+    }
+    .rainy__image {
+        width: 220px;
+        height: 180px;
+    }
+    .rainy__image:hover{
+        transform: none;
+    }
+
+    .storm__image{
+        width: 100%;
+    }
+}
+
     /* Snow part */
 
 .snowy__image {
@@ -209,6 +291,20 @@
     text-align: center;
     margin: 25px 0;
     font-weight: 700;
+}
+
+@media screen and (max-width: 860px) {
+    .snowy__image {
+        background-attachment: initial;
+        margin-top: 30px;
+        height: auto;
+    }
+    .snowy__image__text {
+        color: transparent;
+    }
+    .snowy__header {
+        font-size: 25px;
+    }
 }
 
     /* Footer */
@@ -240,3 +336,4 @@
 .fa:hover {
     color: gray;
 }
+
